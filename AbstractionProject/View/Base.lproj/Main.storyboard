@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="vmg-Et-O47">
-                                <rect key="frame" x="67" y="269" width="796" height="1088.5"/>
+                                <rect key="frame" x="-211" y="41" width="796" height="1088.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwiftCodeImage" translatesAutoresizingMaskIntoConstraints="NO" id="nFF-wt-msU">
@@ -52,8 +52,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="Dn2-EM-s4R">
-                                <rect key="frame" x="67.5" y="269" width="538" height="402.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="Dn2-EM-s4R">
+                                <rect key="frame" x="-82" y="143" width="538" height="402.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlockCodeImage" translatesAutoresizingMaskIntoConstraints="NO" id="WDf-OJ-8nq">
                                         <rect key="frame" x="0.0" y="0.0" width="538" height="312"/>
@@ -72,10 +73,6 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Dn2-EM-s4R" firstAttribute="centerX" secondItem="3i0-Ke-Qd0" secondAttribute="centerX" id="Tu4-46-dTd"/>
-                            <constraint firstItem="Dn2-EM-s4R" firstAttribute="centerX" secondItem="3i0-Ke-Qd0" secondAttribute="centerX" id="mCO-iX-35d"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3i0-Ke-Qd0"/>
                     </view>
                 </viewController>
@@ -91,8 +88,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="Qvt-4c-8Is">
-                                <rect key="frame" x="67" y="269" width="697" height="578.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="Qvt-4c-8Is">
+                                <rect key="frame" x="-161" y="88" width="697" height="578.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ObjectCodeImage" translatesAutoresizingMaskIntoConstraints="NO" id="Tcw-i1-5Em">
                                         <rect key="frame" x="0.0" y="0.0" width="697" height="510"/>
@@ -128,29 +125,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="rgp-Zt-Nht">
-                                <rect key="frame" x="67.5" y="269" width="1024" height="741.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="rgp-Zt-Nht">
+                                <rect key="frame" x="67.5" y="269" width="42" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BinaryCodeImage" translatesAutoresizingMaskIntoConstraints="NO" id="P6h-QR-8h7">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="663"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yek-ee-qmE">
-                                        <rect key="frame" x="0.0" y="721" width="1024" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="yek-ee-qmE" firstAttribute="width" secondItem="P6h-QR-8h7" secondAttribute="width" id="kjz-to-sYT"/>
-                                </constraints>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BinaryCodeImage" translatesAutoresizingMaskIntoConstraints="NO" id="P6h-QR-8h7">
+                                <rect key="frame" x="-325" y="99" width="1024" height="663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="rgp-Zt-Nht" firstAttribute="centerX" secondItem="Vd7-6D-ha6" secondAttribute="centerX" id="WSr-nh-wnu"/>
-                            <constraint firstItem="rgp-Zt-Nht" firstAttribute="centerX" secondItem="Vd7-6D-ha6" secondAttribute="centerX" id="zho-gs-lAH"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Vd7-6D-ha6"/>
                     </view>
                 </viewController>
