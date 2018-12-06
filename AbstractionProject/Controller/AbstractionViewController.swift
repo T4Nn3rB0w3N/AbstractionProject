@@ -8,9 +8,11 @@
 
 import UIKit
 
-class AbstractionViewController: UIPageViewController {
+public class AbstractionViewController: UIPageViewController, UIPageViewControllerDataSource
+{
 
-    override func viewDidLoad() {
+    public override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
