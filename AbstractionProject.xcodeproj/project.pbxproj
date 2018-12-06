@@ -10,6 +10,7 @@
 		2C90018A21B96DF50051CB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90018921B96DF50051CB50 /* AppDelegate.swift */; };
 		2C90018F21B96DF50051CB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C90018D21B96DF50051CB50 /* Main.storyboard */; };
 		2C90019121B96DF70051CB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C90019021B96DF70051CB50 /* Assets.xcassets */; };
+		2C90019F21B9700D0051CB50 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90019E21B9700D0051CB50 /* AbstractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		2C90018E21B96DF50051CB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C90019021B96DF70051CB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C90019521B96DF70051CB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C90019E21B9700D0051CB50 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +52,9 @@
 		2C90018821B96DF50051CB50 /* AbstractionProject */ = {
 			isa = PBXGroup;
 			children = (
-				2C90019B21B96E1A0051CB50 /* Resources */,
-				2C90019D21B96E6A0051CB50 /* Controller */,
 				2C90019C21B96E5C0051CB50 /* View */,
+				2C90019D21B96E6A0051CB50 /* Controller */,
+				2C90019B21B96E1A0051CB50 /* Resources */,
 			);
 			path = AbstractionProject;
 			sourceTree = "<group>";
@@ -78,6 +80,7 @@
 		2C90019D21B96E6A0051CB50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C90019E21B9700D0051CB50 /* AbstractionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C90018A21B96DF50051CB50 /* AppDelegate.swift in Sources */,
+				2C90019F21B9700D0051CB50 /* AbstractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
