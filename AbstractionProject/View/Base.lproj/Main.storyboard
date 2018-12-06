@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--SwiftViewController-->
+        <!--Swift Code-->
         <scene sceneID="MzS-2E-DjV">
             <objects>
-                <viewController storyboardIdentifier="SwiftViewController" title="SwiftViewController" id="MsX-cW-bcT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="MsX-cW-bcT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yCs-aQ-C3H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-1361" y="761"/>
         </scene>
-        <!--BlockViewController-->
+        <!--Block Code-->
         <scene sceneID="pGj-iL-gtE">
             <objects>
-                <viewController storyboardIdentifier="BlockViewController" title="BlockViewController" id="mR7-Wn-Ojy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="mR7-Wn-Ojy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mok-qy-Igw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="-628" y="760.56971514242889"/>
         </scene>
-        <!--ByteCoteViewController-->
+        <!--Byte Code-->
         <scene sceneID="EDo-3o-Faa">
             <objects>
-                <viewController storyboardIdentifier="ByteCodeViewController" title="ByteCoteViewController" id="acP-xf-eeP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteCodeViewController" title="Byte Code" id="acP-xf-eeP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UPE-K0-DVp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="68" y="761"/>
         </scene>
-        <!--BinaryViewController-->
+        <!--Binary Code-->
         <scene sceneID="6cN-Jg-2Mr">
             <objects>
-                <viewController storyboardIdentifier="BinaryViewController" title="BinaryViewController" id="IDn-bR-1MQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" title="Binary Code" id="IDn-bR-1MQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="buo-nk-f1H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="756" y="760.56971514242889"/>
         </scene>
-        <!--LogicalGateViewController-->
+        <!--Logical Gate Code-->
         <scene sceneID="miN-Yz-wdE">
             <objects>
-                <viewController storyboardIdentifier="LogicalGateViewController" title="LogicalGateViewController" id="vpi-ve-cuE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logical Gate Code" id="vpi-ve-cuE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4yd-Q2-V5a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
